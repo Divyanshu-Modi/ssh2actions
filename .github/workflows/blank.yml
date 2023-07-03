@@ -35,7 +35,9 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
       - name: Start SSH via tmate
-      - uses: P3TERX/ssh2actions@main
        run: |
-           ./tmate2actions.sh
+            bash tmate2actions.sh
+                  
+           
+
 
